@@ -1,0 +1,50 @@
+{
+    "name": "RIDEVERSE App Hub",
+    "short_name": "TrackMate",
+    "description": "Premium App Ecosystem",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#fcfcfd",
+    "theme_color": "#10b981",
+    "orientation": "portrait",
+    "icons": [
+        {
+            "src": "/icon-512.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "/icon-512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "any maskable"
+        }
+    ],
+    "categories": [
+        "transportation",
+        "productivity"
+    ],
+    "shortcuts": [
+        {
+            "name": "Passenger Terminal",
+            "url": "/dashboard/passenger",
+            "icons": [
+                {
+                    "src": "/logo.png",
+                    "sizes": "192x192"
+                }
+            ]
+        },
+        {
+            "name": "Traveller Hub",
+            "url": "/dashboard/traveller",
+            "icons": [
+                {
+                    "src": "/logo.png",
+                    "sizes": "192x192"
+                }
+            ]
+        }
+    ]
+}
